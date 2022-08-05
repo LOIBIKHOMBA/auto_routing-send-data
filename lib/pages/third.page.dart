@@ -18,12 +18,12 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Third Page"),
+        title: const Text("Third Page"),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            context.router.push(FirstRoute());
+            context.router.push(const FirstRoute());
           },
           child: const Text("Goto to First page"),
         ),
